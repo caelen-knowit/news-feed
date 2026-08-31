@@ -1,0 +1,166 @@
+{
+  "lastUpdated": "2026-08-31T14:12:11Z",
+  "fetchedAt": "2026-08-31T14:12:11Z",
+  "articles": [
+    {
+      "title": "OpenTelemetry has graduated… now what?",
+      "source": "CNCF",
+      "link": "https://www.cncf.io/blog/2026/08/31/opentelemetry-has-graduated-now-what-2/",
+      "summary": "In case you missed it: OpenTelemetry (OTel) has officially achieved CNCF graduated status! It now stands proudly alongside amazing open source projects such as Kubernetes and Prometheus, to name just a few. It’s been a long...",
+      "published": "2026-08-31",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "#577 - 30th August 2026",
+      "source": "Azure Weekly",
+      "link": "https://azureweekly.info/issue-577",
+      "summary": "Highlights this week include: Copilot Code Reviews for Azure Repos (public preview) by Dan Hellem - GitHub Copilot now provides onboarding controls at organization, project, and repository levels, supports Managed DevOps Pools, allows customizable instructions for team standards, triggers automatic reviews via branch policies, and offers enhanced billing visibility with Azure Cost Management tags. The Economics of Agent Optimization: Four ways to lower the cost by Steve Sweetman - Microsoft Fou…",
+      "published": "2026-08-30",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "[Launched] Generally Available: Workload identity support for Azure Files CSI driver (SMB) in Azure",
+      "source": "Azure Updates",
+      "link": "https://azure.microsoft.com/updates?id=570120",
+      "summary": "The Azure Files Container Storage Interface (CSI) driver in Azure Kubernetes Service (AKS) now supports workload identity for pod-level authentication to SMB file shares. Previously, managed identity support in AKS enabled workloads to mount Azure Files w",
+      "published": "2026-08-28",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure VM Image Builder in sovereign and air-gapped clouds",
+      "source": "Azure Updates",
+      "link": "https://azure.microsoft.com/updates?id=570105",
+      "summary": "Overview:Azure VM Image Builder is now generally available in Azure Government, China North 3, Azure Government Secret, and Azure Government Top Secret.You can now use the same managed image-building service across your sovereign and air-gapped environmen",
+      "published": "2026-08-28",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "Your Kubernetes platform is ready for containers. Is it ready for AI?",
+      "source": "CNCF",
+      "link": "https://www.cncf.io/blog/2026/08/28/your-kubernetes-platform-is-ready-for-containers-is-it-ready-for-ai/",
+      "summary": "Kubernetes has given platform teams a consistent way to deploy, scale, and operate containerized applications. Now, many of those same teams are being asked to support AI. The transition is already underway. According to the CNCF...",
+      "published": "2026-08-28",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "Week Ending August 23, 2026",
+      "source": "Last Week in Kubernetes Dev",
+      "link": "https://lwkd.info/2026/20260828",
+      "summary": "Developer News",
+      "published": "2026-08-28",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "Scale before the spike: Predictive autoscaling for GPU workloads on Kubernetes",
+      "source": "CNCF",
+      "link": "https://www.cncf.io/blog/2026/08/28/scale-before-the-spike-predictive-autoscaling-for-gpu-workloads-on-kubernetes/",
+      "summary": "The 3 AM Call We got paged one Tuesday morning. A critical production service had crashed under traffic—not gradually degraded, but crashed. Hundreds of pending pods. Users were seeing 15–20% error rates. The incident postmortem was...",
+      "published": "2026-08-28",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
+      "source": "Kubernetes Blog",
+      "link": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
+      "summary": "Pod Certificate / Cluster Trust Bundles Blog Post Kubernetes brings a wealth of features that make it easy to run your production workloads securely and reliably. While aspects like scheduling, health checks and resource limits are probably at the front of your mind, one other important feature of Kubernetes is production identity — how your workload can authenticate to other systems in order to do its job. Up until now, the primary production identity mechanism built into Kubernetes has been s…",
+      "published": "2026-08-28",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "Digest #229: AWS acquires DuckDB, Cloudflare frees 100TB of RAM, your executable as a SQLite database and on-call as theatre",
+      "source": "DevOps Bulletin",
+      "link": "https://www.devopsbulletin.com/p/digest-229-aws-acquires-duckdb-cloudflare",
+      "summary": "Also inside: a $500-a-month AI security analyst built on AWS, Databricks running 2,000 AI incident investigations a day, and proof that plan mode doesn't make AI-written code any safer.",
+      "published": "2026-08-28",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "Kubernetes v1.37: Metrics API graduates to stable",
+      "source": "Kubernetes Blog",
+      "link": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
+      "summary": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable ( v1 ). This API provides CPU and memory usage for nodes and Pods, and is the API behind commands such as kubectl top and resource-metrics-based autoscaling. For cluster operators and application developers, this graduation means that the API now has the stability guarantees associated with a Kubernetes stable API. The v1 API has the same resource types and fields as v1beta1 ; this is an API-version graduation, not a change to the metri…",
+      "published": "2026-08-27",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "Building an AI factory on Kubernetes",
+      "source": "CNCF",
+      "link": "https://www.cncf.io/blog/2026/08/27/building-an-ai-factory-on-kubernetes/",
+      "summary": "An AI factory is not just a model or a cluster. It is a pool of GPUs that many teams draw from at once: one team fine-tuning, another serving inference, a third running evaluations, all on...",
+      "published": "2026-08-27",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "[Launched] Generally Available: Connect to AKS clusters using Azure Bastion",
+      "source": "Azure Updates",
+      "link": "https://azure.microsoft.com/updates?id=570030",
+      "summary": "Azure Bastion integration with Azure Kubernetes Service is now generally available. Customers can establish a secure tunnel from their local machine through Azure Bastion to an AKS cluster API server. The integration enables customers to use standard Kube",
+      "published": "2026-08-26",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    }
+  ],
+  "metadata": {
+    "total_fetched": 340,
+    "after_filtering": 12,
+    "sources": 6,
+    "errors": [],
+    "pipeline": {
+      "after_dedup": 340,
+      "after_age_filter": 27,
+      "ranked": 0
+    },
+    "ai_usage": {
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    }
+  }
+}
