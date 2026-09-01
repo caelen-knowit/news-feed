@@ -1,12 +1,48 @@
 {
-  "lastUpdated": "2026-08-31T14:12:11Z",
-  "fetchedAt": "2026-08-31T14:12:11Z",
+  "lastUpdated": "2026-09-01T06:07:16Z",
+  "fetchedAt": "2026-09-01T06:07:16Z",
   "articles": [
+    {
+      "title": "[In preview] Public Preview: Per-disk resiliency for Azure VMs",
+      "source": "Azure Updates",
+      "link": "https://azure.microsoft.com/updates?id=569711",
+      "summary": "Azure automatically recovers a VM when it loses access to an attached managed disk for an extended period. The VM is shut down and powered back on after disk connectivity is restored, with no customer action required. This remains the default behavior.Now",
+      "published": "2026-08-31",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Multicloud Interconnect",
+      "source": "Azure Updates",
+      "link": "https://azure.microsoft.com/updates?id=570364",
+      "summary": "Announcing the public preview of Azure Multicloud Interconnect, a managed service that provides private connectivity between Azure and supported cloud providers, with Amazon Web Services (AWS) available as the first supported provider in preview. As organ",
+      "published": "2026-08-31",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
     {
       "title": "OpenTelemetry has graduated… now what?",
       "source": "CNCF",
       "link": "https://www.cncf.io/blog/2026/08/31/opentelemetry-has-graduated-now-what-2/",
       "summary": "In case you missed it: OpenTelemetry (OTel) has officially achieved CNCF graduated status! It now stands proudly alongside amazing open source projects such as Kubernetes and Prometheus, to name just a few. It’s been a long...",
+      "published": "2026-08-31",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
+      "source": "Kubernetes Blog",
+      "link": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
+      "summary": "I am excited that storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37! After a number of releases of work and testing, the built-in StorageVersionMigration API ( storagemigration.k8s.io/v1 ) and control plane controller are now fully stable and enabled by default across all v1.37 Kubernetes clusters. The problem with stale storage versions In Kubernetes, stored API resources are written using a specific storage version (schema representation). The way…",
       "published": "2026-08-31",
       "category": "other",
       "relevance_score": 5,
@@ -109,42 +145,6 @@
       "is_trending": false,
       "why": "",
       "action": "nice_to_know"
-    },
-    {
-      "title": "Kubernetes v1.37: Metrics API graduates to stable",
-      "source": "Kubernetes Blog",
-      "link": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
-      "summary": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable ( v1 ). This API provides CPU and memory usage for nodes and Pods, and is the API behind commands such as kubectl top and resource-metrics-based autoscaling. For cluster operators and application developers, this graduation means that the API now has the stability guarantees associated with a Kubernetes stable API. The v1 API has the same resource types and fields as v1beta1 ; this is an API-version graduation, not a change to the metri…",
-      "published": "2026-08-27",
-      "category": "other",
-      "relevance_score": 5,
-      "is_trending": false,
-      "why": "",
-      "action": "nice_to_know"
-    },
-    {
-      "title": "Building an AI factory on Kubernetes",
-      "source": "CNCF",
-      "link": "https://www.cncf.io/blog/2026/08/27/building-an-ai-factory-on-kubernetes/",
-      "summary": "An AI factory is not just a model or a cluster. It is a pool of GPUs that many teams draw from at once: one team fine-tuning, another serving inference, a third running evaluations, all on...",
-      "published": "2026-08-27",
-      "category": "other",
-      "relevance_score": 5,
-      "is_trending": false,
-      "why": "",
-      "action": "nice_to_know"
-    },
-    {
-      "title": "[Launched] Generally Available: Connect to AKS clusters using Azure Bastion",
-      "source": "Azure Updates",
-      "link": "https://azure.microsoft.com/updates?id=570030",
-      "summary": "Azure Bastion integration with Azure Kubernetes Service is now generally available. Customers can establish a secure tunnel from their local machine through Azure Bastion to an AKS cluster API server. The integration enables customers to use standard Kube",
-      "published": "2026-08-26",
-      "category": "other",
-      "relevance_score": 5,
-      "is_trending": false,
-      "why": "",
-      "action": "nice_to_know"
     }
   ],
   "metadata": {
@@ -154,7 +154,7 @@
     "errors": [],
     "pipeline": {
       "after_dedup": 340,
-      "after_age_filter": 27,
+      "after_age_filter": 26,
       "ranked": 0
     },
     "ai_usage": {
