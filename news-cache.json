@@ -1,7 +1,55 @@
 {
-  "lastUpdated": "2026-09-02T06:07:21Z",
-  "fetchedAt": "2026-09-02T06:07:21Z",
+  "lastUpdated": "2026-09-03T06:09:00Z",
+  "fetchedAt": "2026-09-03T06:09:00Z",
   "articles": [
+    {
+      "title": "[In preview] Public Preview: Reader Endpoint for Azure Database for MySQL",
+      "source": "Azure Updates",
+      "link": "https://azure.microsoft.com/updates?id=569653",
+      "summary": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint enables automatic load balancing of read-only connection",
+      "published": "2026-09-02",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Front Door profile and route level WAF policies",
+      "source": "Azure Updates",
+      "link": "https://azure.microsoft.com/updates?id=569804",
+      "summary": "Azure Front Door’s Web Application Firewall (WAF) now supports profile and route level WAF policy associations in public preview. This gives you more flexibility to apply broad baseline protection across an Azure Front Door profile while using targeted po",
+      "published": "2026-09-02",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "Metal3 meets KubeVirtBMC: Provisioning KubeVirt VMs like bare metal",
+      "source": "CNCF",
+      "link": "https://www.cncf.io/blog/2026/09/02/metal3-meets-kubevirtbmc-provisioning-kubevirt-vms-like-bare-metal/",
+      "summary": "In the previous post , we introduced KubeVirtBMC and showed how it provides virtual BMC endpoints for KubeVirt VMs. We tested it with raw IPMI and Redfish commands. That was fun, but the real power of...",
+      "published": "2026-09-02",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler",
+      "source": "Kubernetes Blog",
+      "link": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
+      "summary": "Kubernetes v1.37 includes API support for horizontal autoscaling of workloads down to zero replicas. This feature is now Beta and enabled by default. A HorizontalPodAutoscaler (HPA) that uses a suitable object metric or external metric can now scale a workload to zero replicas, then bring it back when the metric changes. Before v1.37, you needed an add-on or external component, or you had to enable the Alpha feature gate, to scale from zero. It is now part of core Kubernetes. Scaling to zero re…",
+      "published": "2026-09-02",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
     {
       "title": "[Launched] Generally Available: Windows Server 2025 on AKS",
       "source": "Azure Updates",
@@ -97,54 +145,6 @@
       "is_trending": false,
       "why": "",
       "action": "nice_to_know"
-    },
-    {
-      "title": "[Launched] Generally Available: Artifact Streaming on AKS",
-      "source": "Azure Updates",
-      "link": "https://azure.microsoft.com/updates?id=570095",
-      "summary": "You can now accelerate your containerized workloads on Azure Kubernetes Service (AKS) using Azure Container Registry (ACR) with Artifact streaming. Artifact streaming will allow you to scale your workloads without having to fully wait for images to be pul",
-      "published": "2026-09-01",
-      "category": "other",
-      "relevance_score": 5,
-      "is_trending": false,
-      "why": "",
-      "action": "nice_to_know"
-    },
-    {
-      "title": "Platform engineering maturity: From toolchain to self-service",
-      "source": "CNCF",
-      "link": "https://www.cncf.io/blog/2026/09/01/platform-engineering-maturity-from-toolchain-to-self-service/",
-      "summary": "Most platform engineering conversations tend to split into two rooms pretty quickly. The first room is full of teams who don’t have a platform yet. Scattered scripts, tribal knowledge, and every team is doing the same...",
-      "published": "2026-09-01",
-      "category": "other",
-      "relevance_score": 5,
-      "is_trending": false,
-      "why": "",
-      "action": "nice_to_know"
-    },
-    {
-      "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
-      "source": "Kubernetes Blog",
-      "link": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
-      "summary": "I am excited to announce that etcd RangeStream is graduating to beta in Kubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and etcd need to read a large collection, and makes peak usage more predictable. The cost of large reads The API server serves most list and watch requests from its in-memory watch cache. Populating that cache requires reading a resource's full state from etcd, at startup and on every re-initialization. For a resource with many objects, or large o…",
-      "published": "2026-09-01",
-      "category": "other",
-      "relevance_score": 5,
-      "is_trending": false,
-      "why": "",
-      "action": "nice_to_know"
-    },
-    {
-      "title": "[In preview] Public Preview: Per-disk resiliency for Azure VMs",
-      "source": "Azure Updates",
-      "link": "https://azure.microsoft.com/updates?id=569711",
-      "summary": "Azure automatically recovers a VM when it loses access to an attached managed disk for an extended period. The VM is shut down and powered back on after disk connectivity is restored, with no customer action required. This remains the default behavior.Now",
-      "published": "2026-08-31",
-      "category": "other",
-      "relevance_score": 5,
-      "is_trending": false,
-      "why": "",
-      "action": "nice_to_know"
     }
   ],
   "metadata": {
@@ -154,7 +154,7 @@
     "errors": [],
     "pipeline": {
       "after_dedup": 340,
-      "after_age_filter": 33,
+      "after_age_filter": 30,
       "ranked": 0
     },
     "ai_usage": {
