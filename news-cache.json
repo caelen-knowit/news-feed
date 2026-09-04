@@ -1,7 +1,67 @@
 {
-  "lastUpdated": "2026-09-03T06:09:00Z",
-  "fetchedAt": "2026-09-03T06:09:00Z",
+  "lastUpdated": "2026-09-04T06:07:09Z",
+  "fetchedAt": "2026-09-04T06:07:09Z",
   "articles": [
+    {
+      "title": "Week Ending August 30, 2026",
+      "source": "Last Week in Kubernetes Dev",
+      "link": "https://lwkd.info/2026/20260904",
+      "summary": "Developer News",
+      "published": "2026-09-04",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Virtual Network Manager IPAM in additional Azure regions",
+      "source": "Azure Updates",
+      "link": "https://azure.microsoft.com/updates?id=570557",
+      "summary": "Azure Virtual Network Manager IP address management is now generally available in additional regions: US Gov Virginia, US Gov Texas and US Gov Arizona, and China North 3 and China East 3. In complex network environments, managing IP addresses effectively",
+      "published": "2026-09-03",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "Migrating a critical Kubernetes deployment from the default namespace without any downtime",
+      "source": "CNCF",
+      "link": "https://www.cncf.io/blog/2026/09/03/migrating-a-critical-kubernetes-deployment-from-the-default-namespace-without-any-downtime/",
+      "summary": "Somewhere in your cluster there’s probably a deployment sitting in the default namespace that everyone knows shouldn’t be there. Nobody put it there maliciously, it just happened, early on, before anyone had opinions about namespace hygiene,...",
+      "published": "2026-09-03",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "Kubernetes v1.37: DRA Updates",
+      "source": "Kubernetes Blog",
+      "link": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
+      "summary": "Kubernetes 1.37 is here and Dynamic Resource Allocation (DRA) keeps pushing past where it started! This release brings DRA Extended Resource support to GA, a milestone the team has been building toward for three straight releases. Several more features graduate to Beta or GA. A fresh batch of alpha features rounds out the release. I'll dive into what's new for DRA in Kubernetes 1.37! What's stable in 1.37 DRA Extended Resource support has graduated to GA. This is the mechanism that lets DRA dri…",
+      "published": "2026-09-03",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
+    {
+      "title": "Join OSPOlogy + OSPO Summit China 2026 in Shanghai",
+      "source": "CNCF",
+      "link": "https://www.cncf.io/blog/2026/09/03/join-ospology-ospo-summit-china-2026-in-shanghai/",
+      "summary": "There’s still time to join OSPOlogy + OSPO Summit China 2026, taking place on September 7, 2026, in Shanghai, China as part of KubeCon + CloudNativeCon + OpenInfra Summit + PyTorch Conference China. This event will...",
+      "published": "2026-09-03",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
     {
       "title": "[In preview] Public Preview: Reader Endpoint for Azure Database for MySQL",
       "source": "Azure Updates",
@@ -85,66 +145,6 @@
       "is_trending": false,
       "why": "",
       "action": "nice_to_know"
-    },
-    {
-      "title": "[Launched] Generally Available: Confidential VMs for Azure Linux",
-      "source": "Azure Updates",
-      "link": "https://azure.microsoft.com/updates?id=570100",
-      "summary": "Confidential Virtual Machines (CVM) offer strong security and confidentiality for tenants. CVM for Azure Linux in AKS is now generally available and enables node pools with CVM to target the migration of highly sensitive container workloads to AKS without",
-      "published": "2026-09-01",
-      "category": "other",
-      "relevance_score": 5,
-      "is_trending": false,
-      "why": "",
-      "action": "nice_to_know"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Monitor Auxiliary Logs Plan support for Azure tables and plan switching",
-      "source": "Azure Updates",
-      "link": "https://azure.microsoft.com/updates?id=569904",
-      "summary": "The Auxiliary table plan in Azure Monitor Logs gives you a cost-effective way to ingest and retain high-volume, verbose logs that you keep for compliance and auditing but rarely query. Two highly requested capabilities are now generally available.Auxiliar",
-      "published": "2026-09-01",
-      "category": "other",
-      "relevance_score": 5,
-      "is_trending": false,
-      "why": "",
-      "action": "nice_to_know"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Monitor Auxiliary Logs Plan in Azure Government and China regions",
-      "source": "Azure Updates",
-      "link": "https://azure.microsoft.com/updates?id=569899",
-      "summary": "The Auxiliary table plan in Azure Monitor Logs is a cost-effective option for ingesting and retaining high-volume, verbose logs used for compliance and auditing. Auxiliary Logs is now generally available in the sovereign clouds: Azure Government (Fairfax)",
-      "published": "2026-09-01",
-      "category": "other",
-      "relevance_score": 5,
-      "is_trending": false,
-      "why": "",
-      "action": "nice_to_know"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Firewall auto-learn SNAT routes",
-      "source": "Azure Updates",
-      "link": "https://azure.microsoft.com/updates?id=570474",
-      "summary": "Azure Firewall’s auto-learn SNAT routes is now generally available, automatically learning registered and private destination prefixes periodically and applying them as No-SNAT ranges to preserve original source IPs and simplify SNAT management.Learn more",
-      "published": "2026-09-01",
-      "category": "other",
-      "relevance_score": 5,
-      "is_trending": false,
-      "why": "",
-      "action": "nice_to_know"
-    },
-    {
-      "title": "[Launched] Generally Available: Azure Copilot Observability Agent supports Basic and Auxiliary table plans",
-      "source": "Azure Updates",
-      "link": "https://azure.microsoft.com/updates?id=570250",
-      "summary": "Azure Copilot Observability Agent, an AI-powered operational companion in Azure Monitor, is now covering Log Analytics data in Basic and Auxiliary table plans during interactive analysis and deep investigations. Teams can move high-volume telemetry - incl",
-      "published": "2026-09-01",
-      "category": "other",
-      "relevance_score": 5,
-      "is_trending": false,
-      "why": "",
-      "action": "nice_to_know"
     }
   ],
   "metadata": {
@@ -154,7 +154,7 @@
     "errors": [],
     "pipeline": {
       "after_dedup": 340,
-      "after_age_filter": 30,
+      "after_age_filter": 33,
       "ranked": 0
     },
     "ai_usage": {
