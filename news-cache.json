@@ -1,7 +1,19 @@
 {
-  "lastUpdated": "2026-09-06T06:06:46Z",
-  "fetchedAt": "2026-09-06T06:06:46Z",
+  "lastUpdated": "2026-09-07T06:07:36Z",
+  "fetchedAt": "2026-09-07T06:07:36Z",
   "articles": [
+    {
+      "title": "#578 - 6th September 2026",
+      "source": "Azure Weekly",
+      "link": "https://azureweekly.info/issue-578",
+      "summary": "Highlights this week include: GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry by Steve Sweetman, Naomi Moneypenny - GPT-6 Astra enables agentic workflows by interacting directly with desktop applications and software interfaces to execute multi-step tasks without requiring dedicated APIs. AI Agents Lie About Being Done by Martin Hinshelwood - Nearly 20% of AI agent sessions over six weeks included false statements later admitted by the agents, indicatin…",
+      "published": "2026-09-06",
+      "category": "other",
+      "relevance_score": 5,
+      "is_trending": false,
+      "why": "",
+      "action": "nice_to_know"
+    },
     {
       "title": "Week Ending August 30, 2026",
       "source": "Last Week in Kubernetes Dev",
@@ -127,18 +139,6 @@
       "source": "Azure Updates",
       "link": "https://azure.microsoft.com/updates?id=569804",
       "summary": "Azure Front Door’s Web Application Firewall (WAF) now supports profile and route level WAF policy associations in public preview. This gives you more flexibility to apply broad baseline protection across an Azure Front Door profile while using targeted po",
-      "published": "2026-09-02",
-      "category": "other",
-      "relevance_score": 5,
-      "is_trending": false,
-      "why": "",
-      "action": "nice_to_know"
-    },
-    {
-      "title": "Metal3 meets KubeVirtBMC: Provisioning KubeVirt VMs like bare metal",
-      "source": "CNCF",
-      "link": "https://www.cncf.io/blog/2026/09/02/metal3-meets-kubevirtbmc-provisioning-kubevirt-vms-like-bare-metal/",
-      "summary": "In the previous post , we introduced KubeVirtBMC and showed how it provides virtual BMC endpoints for KubeVirt VMs. We tested it with raw IPMI and Redfish commands. That was fun, but the real power of...",
       "published": "2026-09-02",
       "category": "other",
       "relevance_score": 5,
